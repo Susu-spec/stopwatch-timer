@@ -17,7 +17,7 @@ This is a simple console-based stopwatch timer built using JavaScript. It demons
 ## Installation & Usage
 1. Clone the repository.
 ```bash
-git clone https://www.github.com/stopwatch.mjs
+git clone https://www.github.com/Susu-spec/stopwatch.timer
 ```
 
 2. Open a terminal and run the script using Node.js:
@@ -27,3 +27,7 @@ node stopwatch.js
 
 3. Interact with the stopwatch with the following commands: 
 [s] Start | [p] Pause | [r] Reset | [q] Quit
+
+## License
+
+This project is open-source and available under the MIT License.
