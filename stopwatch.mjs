@@ -12,7 +12,7 @@ function createStopwatch() {
             interval = setInterval(() => {
                 elapsedTime = Date.now() - startTime;
                 console.clear();
-                console.log(`⏱️ Elapsed Time: ${(elapsedTime / 1000).toFixed(1)} seconds`);
+                console.log(`Elapsed Time: ${(elapsedTime / 1000).toFixed(1)} seconds`);
                 showMenu();
             }, 100);
         }
@@ -21,7 +21,7 @@ function createStopwatch() {
     function pause() {
         clearInterval(interval);
         interval = null;
-        console.log("⏸️ Stopwatch paused.");
+        console.log("Stopwatch paused.");
         showMenu();
     }
 
@@ -29,7 +29,7 @@ function createStopwatch() {
         clearInterval(interval);
         elapsedTime = 0;
         interval = null;
-        console.log("🔄 Stopwatch reset.");
+        console.log("Stopwatch reset.");
         showMenu();
     }
 
