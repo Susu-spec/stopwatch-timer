@@ -68,6 +68,6 @@ function handleInput(input) {
     }
 }
 
-console.log("🎯 Interactive Stopwatch");
+console.log("Interactive Stopwatch");
 showMenu();
 rl.on("line", handleInput);
