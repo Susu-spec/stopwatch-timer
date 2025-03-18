@@ -22,7 +22,7 @@ git clone https://www.github.com/Susu-spec/stopwatch-timer
 
 2. Open a terminal and run the script using Node.js:
 ```bash
-node stopwatch.js
+node stopwatch.mjs
 ```
 
 3. Interact with the stopwatch with the following commands: 
